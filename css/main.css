@@ -45,3 +45,47 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.section {
+  /* Flex-box */
+  display: flex;
+  /* Visual css */
+  background-color: var(--green);
+  color: var(--white);
+  margin: 40px;
+  padding: 20px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.box {
+  /* Visual css */
+  background-color: var(--dark-blue);
+  padding: 40px;
+}
+
+.section-1 {
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+.section-2 {
+  flex-flow: row-reverse nowrap;
+  gap: 20px;
+}
+
+.section-3 {
+  flex-flow: column-reverse;
+  gap: 20px;
+}
+
+.section-4 {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.section-5 {
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 20px;
+}
